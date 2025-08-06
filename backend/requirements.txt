@@ -1,3 +1,4 @@
 # Placeholder for backend dependencies
 fastapi
+pytest
 

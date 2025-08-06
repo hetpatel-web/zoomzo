@@ -10,3 +10,8 @@ results.
 - `frontend/` – User interface built with Next.js to show filtered listings.
 
 This repository currently contains only a scaffold; implementation will be added later.
+
+## Testing
+
+- Backend tests are run with `pytest` in the `backend/` directory.
+- Frontend tests are run with `npm test` inside `frontend/`.
