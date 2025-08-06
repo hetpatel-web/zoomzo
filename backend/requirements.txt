@@ -1,4 +1,5 @@
 # Placeholder for backend dependencies
 fastapi
+uvicorn
 pytest
 

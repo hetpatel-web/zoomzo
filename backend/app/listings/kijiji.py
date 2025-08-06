@@ -1,9 +1,13 @@
-"""Scraper for Kijiji car listings."""
+"""Dummy scraper for Kijiji car listings."""
 
 
-from .base import ListingSource
+def scrape_kijiji() -> list:
+    """Return hard-coded listings from Kijiji for testing."""
+    return [
+        {"title": "2011 Honda Civic", "price": "$4,500", "location": "Hamilton"},
+        {"title": "2010 Toyota Matrix", "price": "$5,200", "location": "Kitchener"},
+    ]
 
 
-class KijijiScraper(ListingSource):
-    """Placeholder scraper for Kijiji."""
-    pass
+__all__ = ["scrape_kijiji"]
+

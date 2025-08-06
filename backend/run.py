@@ -1,8 +1,7 @@
 """Run the Zoomzo backend application."""
 
-
-from app.main import run
+import uvicorn
 
 
 if __name__ == "__main__":
-    run()
+    uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=True)
