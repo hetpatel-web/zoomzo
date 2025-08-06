@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+ENV/
+
+# Node
+node_modules/
+.npm/
+.next/
+out/
+
+# Logs and data
+*.log
+
+# Environment variables
+.env
+.env.*
+!frontend/.env.local
