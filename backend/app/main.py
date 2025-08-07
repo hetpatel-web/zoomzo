@@ -15,10 +15,9 @@ def read_root() -> dict:
 
 
 @app.get("/listings/kijiji")
-def get_kijiji_listings() -> dict:
+def get_kijiji_listings() -> list:
     """Return dummy listings from Kijiji."""
-    listings = scrape_kijiji()
-    return {"source": "kijiji", "results": listings}
+    return scrape_kijiji()
 
 
 __all__ = ["app", "read_root", "get_kijiji_listings"]
